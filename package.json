@@ -1,0 +1,32 @@
+{
+  "name": "clean-array",
+  "version": "1.0.0",
+  "description": "Safely remove empty values from an array.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/clean-array.git"
+  },
+  "keywords": [
+    "array",
+    "clean",
+    "omit",
+    "sanitize"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/clean-array/issues"
+  },
+  "homepage": "https://github.com/gummesson/clean-array",
+  "dependencies": {
+    "is-empty-array": "^1.0.0",
+    "is-empty-object": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "node test/"
+  }
+}
